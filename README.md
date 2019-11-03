@@ -5,7 +5,7 @@ Copy git repository without initializing git
 ----
 Your reusuable code in previous projects needs more work before packaging or you just need to duplicate small modules
 
-## API
+## Usage
 ----
 > Caution: .git folder in the repository is removed before copying to your destination
 ### Command Line

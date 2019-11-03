@@ -1,6 +1,6 @@
 {
   "name": "@minnam/git-copy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Copy the whole or a certain part of git repository to destination",
   "main": "src/index.js",
   "preferGlobal": true,
