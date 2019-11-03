@@ -4,19 +4,15 @@ const gitCopy = require('../src/')
 const params =process.argv.slice(2)
 let repoUrl
 let source
-let dest = process.cwd()
+let dest
 
-if (params.length === 0) {
+if (params.length < 2) {
   let errorMessage = 'Usage: git-copy [repo-url]\n'
   errorMessage    += '       git-copy [repo-url] [destination]\n'
   errorMessage    += '       git-copy [repo-url] [source] [destination]'
   console.error(errorMessage)
 
   process.exit()
-}
-
-if (params.length === 1) {
-  repoUrl = params[0]
 }
 
 if (params.length === 2) {
