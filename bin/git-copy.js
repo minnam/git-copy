@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const gitCopy = require('../src/')
 
-const params =process.argv.slice(2)
+const params = process.argv.slice(2)
 let repoUrl
 let source
 let dest
