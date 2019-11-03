@@ -7,8 +7,7 @@ let source
 let dest
 
 if (params.length < 2) {
-  let errorMessage = 'Usage: git-copy [repo-url]\n'
-  errorMessage    += '       git-copy [repo-url] [destination]\n'
+  let errorMessage = 'Usage: git-copy [repo-url] [destination]\n'
   errorMessage    += '       git-copy [repo-url] [source] [destination]'
   console.error(errorMessage)
 
