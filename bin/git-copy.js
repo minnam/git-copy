@@ -4,8 +4,7 @@ const gitCopy = require('../src/')
 const params =process.argv.slice(2)
 let repoUrl
 let source
-let dest
-let tmpObj
+let dest = process.cwd()
 
 if (params.length === 0) {
   let errorMessage = 'Usage: git-copy [repo-url]\n'
